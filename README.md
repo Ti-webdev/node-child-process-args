@@ -14,3 +14,5 @@ childProcessArgs([
     var child = spawn('ssh', ['root@machine1', rsyncCommand], { stdio: 'inherit' });
   });
 ```
+
+[![Build Status](https://travis-ci.org/Ti-webdev/node-child-process-args.svg?branch=master)](https://travis-ci.org/Ti-webdev/node-child-process-args)
