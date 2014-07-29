@@ -1,0 +1,35 @@
+{
+  "name": "child-process-args",
+  "version": "0.0.1",
+  "description": "shell escape arg with self test",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Ti-webdev/node-child-process-args.git"
+  },
+  "keywords": [
+    "shell",
+    "escape",
+    "ssh",
+    "sh",
+    "arg"
+  ],
+  "author": "Ti",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Ti-webdev/node-child-process-args/issues"
+  },
+  "homepage": "https://github.com/Ti-webdev/node-child-process-args",
+  "devDependencies": {
+    "mocha": "^1.21.3"
+  },
+  "dependencies": {
+    "promise": "^5.0.0"
+  }
+}
