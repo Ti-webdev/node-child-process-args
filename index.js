@@ -1,7 +1,5 @@
 var assert = require('assert');
 var spawn = require('child_process').spawn;
-var Promise = require('promise');
-
 
 var re = /^[-_\d\w/@:.]+$/;
 
